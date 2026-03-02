@@ -3,10 +3,13 @@
   "title": "hi",
   "titleGenerationStatus": "failed",
   "createdAt": 1772489414725,
-  "updatedAt": 1772490346557,
-  "lastResponseAt": 1772490346557,
+  "updatedAt": 1772492053938,
+  "lastResponseAt": 1772491368113,
   "sessionId": "8dfc7b70-d184-4b62-88dd-6866860c3222",
   "sdkSessionId": "8dfc7b70-d184-4b62-88dd-6866860c3222",
+  "externalContextPaths": [
+    "/Users/joeyzou/Code/OpenSource/Claudeception"
+  ],
   "usage": {
     "model": "sonnet",
     "inputTokens": 0,

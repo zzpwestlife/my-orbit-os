@@ -4,81 +4,136 @@
     "type": "split",
     "children": [
       {
-        "id": "7a305edfa1c795f5",
-        "type": "tabs",
+        "id": "54d2c98b49b7f939",
+        "type": "split",
         "children": [
           {
-            "id": "96f77fb6a2ae6b61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_项目/Obsidian剪藏配置指南.md",
-                "mode": "source",
-                "source": false
+            "id": "7a305edfa1c795f5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "96f77fb6a2ae6b61",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "20_项目/Obsidian剪藏配置指南.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian剪藏配置指南"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Obsidian剪藏配置指南"
-            }
+              {
+                "id": "a7315db374d1bdcc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "20_项目/Vibe-Coding-学习/Vibe-Coding-学习.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Vibe-Coding-学习"
+                }
+              },
+              {
+                "id": "cf8cbf65b5915880",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Interview-Plan-Execute 工作流模式.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Interview-Plan-Execute 工作流模式"
+                }
+              },
+              {
+                "id": "20aab29bc087afef",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "40_知识库/AI方法论/硅基分化假说.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "硅基分化假说"
+                }
+              },
+              {
+                "id": "08d1c00a07722753",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CLAUDE.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CLAUDE"
+                }
+              }
+            ],
+            "currentTab": 4
           },
           {
-            "id": "a7315db374d1bdcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_项目/Vibe-Coding-学习/Vibe-Coding-学习.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vibe-Coding-学习"
-            }
-          },
-          {
-            "id": "cf8cbf65b5915880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview-Plan-Execute 工作流模式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Interview-Plan-Execute 工作流模式"
-            }
-          },
-          {
-            "id": "20aab29bc087afef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40_知识库/AI方法论/硅基分化假说.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "硅基分化假说"
-            }
-          },
-          {
-            "id": "08d1c00a07722753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
+            "id": "b7bf4a9ee266e0b3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "12317ea5e2d10d0c",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/joeyzou/Library/Mobile Documents/iCloud~md~obsidian/Documents/OrbitOS-Second-Brain",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：joeyzou@MacBookPro:~/Library/Mobile Documents/iCloud~md~obsidian/Documents/OrbitOS-Second-Brain"
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 4
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -110,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "continuous-learning skill",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 261.5
   },
   "right": {
     "id": "9e07246d4697afc7",
@@ -254,10 +309,30 @@
   },
   "active": "08d1c00a07722753",
   "lastOpenFiles": [
+    "99_系统/工具/SKILL.md",
+    "99_系统/工具/test-skill-parsing.yaml",
+    "99_系统/工具/scripts/claudeception-activator.sh",
+    "99_系统/工具/scripts",
+    "99_系统/工具/examples/prisma-connection-pool-exhaustion/SKILL.md",
+    "99_系统/工具/examples/typescript-circular-dependency/SKILL.md",
+    "99_系统/工具/examples/nextjs-server-side-error-debugging/SKILL.md",
+    "99_系统/工具/examples/prisma-connection-pool-exhaustion",
+    "99_系统/工具/examples/typescript-circular-dependency",
+    "99_系统/工具/examples/nextjs-server-side-error-debugging",
+    "99_系统/工具/examples",
+    "99_系统/工具/README.md",
+    "99_系统/工具/resources/research-references.md",
+    "99_系统/工具/resources/skill-template.md",
+    "99_系统/工具/resources",
+    "99_系统/工具/WARP.md",
+    "99_系统/工具/LICENSE",
+    "99_系统/工具",
+    "99_系统/归档/收件箱/2026/03/Vibe Coding 高效使用指南 —— 给 VibeCoding 新手十个实用建议.md",
+    "40_知识库/AI方法论/对话提炼Skill法.md",
+    "40_知识库/AI方法论/Skill-First工作流.md",
+    "CLAUDE.md",
     "40_知识库/AI方法论/后人类代码审查.md",
     "40_知识库/系统运维/AI自我迭代系统.md",
-    "40_知识库/系统运维",
-    "CLAUDE.md",
     "40_知识库/AI方法论/硅基分化假说.md",
     "40_知识库/AI方法论/视觉锚点法.md",
     "40_知识库/AI方法论/顶级模型优先原则.md",
@@ -267,29 +342,8 @@
     "40_知识库/工作流设计/Interview-Plan-Execute模式.md",
     "40_知识库/AI方法论/Requirement Engineering.md",
     "40_知识库/AI方法论/Context Alignment.md",
-    "40_知识库/工作流设计",
-    "40_知识库/AI方法论",
-    "30_研究/AI工作流/InterviewPlanExecute模式",
-    "30_研究/AI工作流",
     "20_项目/Obsidian剪藏配置指南.md",
     "20_项目/Vibe-Coding-学习.md",
-    "00_收件箱/编写优质的 CLAUDE.md 文件.md",
-    "99_系统/归档/收件箱/2026/03/编写优质的 CLAUDE.md 文件.md",
-    "50_资源/Screenshot.png",
-    "90_计划/归档/Plan_2026-03-02_Kickoff_Vibe-Coding-学习.md",
-    "90_计划/归档/Plan_2026-03-02_Kickoff_Obsidian剪藏配置.md",
-    "99_系统/模板/Content_Template.md",
-    "99_系统/数据库/Projects_Archive.base",
-    "99_系统/数据库/Projects.base",
-    "99_系统/数据库/Knowledge.base",
-    "99_系统/提示词/Finance_Crypto.md",
-    "GEMINI.md",
-    "AGENTS.md",
-    "90_计划/Plan_2026-03-02_Kickoff_Vibe-Coding-学习.md",
-    "99_系统/归档/收件箱/2026/03/对笔记说了句 \"帮我做个健身计划\"，它真给我写了一份.md",
-    "99_系统/归档/收件箱/2026/03/跟 AI 说句话，它就帮你画了张图.md",
-    "99_系统/归档/收件箱/2026/03/Vibe Coding 高效使用指南 —— 给 VibeCoding 新手十个实用建议.md",
-    "20_项目/Vibe-Coding-学习",
-    "99_系统/归档/收件箱/2026/03"
+    "50_资源/Screenshot.png"
   ]
 }

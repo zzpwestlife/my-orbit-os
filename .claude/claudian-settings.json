@@ -48,7 +48,7 @@
   "enableBangBash": false,
   "excludedTags": [],
   "mediaFolder": "",
-  "systemPrompt": "",
+  "systemPrompt": "- **Skill Reference**: Consult `99_系统/工具/SKILL.md` for canonical skill definitions, tool capabilities, and workflow documentation when executing commands.",
   "allowedExportPaths": [
     "~/Desktop",
     "~/Downloads"
