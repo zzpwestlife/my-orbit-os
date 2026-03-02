@@ -1,0 +1,295 @@
+{
+  "main": {
+    "id": "3110798aaeae0676",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a305edfa1c795f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96f77fb6a2ae6b61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_项目/Obsidian剪藏配置指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian剪藏配置指南"
+            }
+          },
+          {
+            "id": "a7315db374d1bdcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_项目/Vibe-Coding-学习/Vibe-Coding-学习.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vibe-Coding-学习"
+            }
+          },
+          {
+            "id": "cf8cbf65b5915880",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview-Plan-Execute 工作流模式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interview-Plan-Execute 工作流模式"
+            }
+          },
+          {
+            "id": "20aab29bc087afef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40_知识库/AI方法论/硅基分化假说.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "硅基分化假说"
+            }
+          },
+          {
+            "id": "08d1c00a07722753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48206b3262acf660",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcaaf424caeae128",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f212299e8d4aef93",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "d30d8a473e075136",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0e74fd94614fd0f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9e07246d4697afc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4f6097314a626a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dad34e36466475d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "284e99de05c61c36",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "0c4de195180ff93a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "28d68d0e8024e0cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "141d655504322aba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "e7f55624297ebe79",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 593.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian42-brat:BRAT": false,
+      "claudian:Open Claudian": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "08d1c00a07722753",
+  "lastOpenFiles": [
+    "40_知识库/AI方法论/后人类代码审查.md",
+    "40_知识库/系统运维/AI自我迭代系统.md",
+    "40_知识库/系统运维",
+    "CLAUDE.md",
+    "40_知识库/AI方法论/硅基分化假说.md",
+    "40_知识库/AI方法论/视觉锚点法.md",
+    "40_知识库/AI方法论/顶级模型优先原则.md",
+    "40_知识库/AI方法论/FlowState.md",
+    "Interview-Plan-Execute 工作流模式.md",
+    "20_项目/Vibe-Coding-学习/Vibe-Coding-学习.md",
+    "40_知识库/工作流设计/Interview-Plan-Execute模式.md",
+    "40_知识库/AI方法论/Requirement Engineering.md",
+    "40_知识库/AI方法论/Context Alignment.md",
+    "40_知识库/工作流设计",
+    "40_知识库/AI方法论",
+    "30_研究/AI工作流/InterviewPlanExecute模式",
+    "30_研究/AI工作流",
+    "20_项目/Obsidian剪藏配置指南.md",
+    "20_项目/Vibe-Coding-学习.md",
+    "00_收件箱/编写优质的 CLAUDE.md 文件.md",
+    "99_系统/归档/收件箱/2026/03/编写优质的 CLAUDE.md 文件.md",
+    "50_资源/Screenshot.png",
+    "90_计划/归档/Plan_2026-03-02_Kickoff_Vibe-Coding-学习.md",
+    "90_计划/归档/Plan_2026-03-02_Kickoff_Obsidian剪藏配置.md",
+    "99_系统/模板/Content_Template.md",
+    "99_系统/数据库/Projects_Archive.base",
+    "99_系统/数据库/Projects.base",
+    "99_系统/数据库/Knowledge.base",
+    "99_系统/提示词/Finance_Crypto.md",
+    "GEMINI.md",
+    "AGENTS.md",
+    "90_计划/Plan_2026-03-02_Kickoff_Vibe-Coding-学习.md",
+    "99_系统/归档/收件箱/2026/03/对笔记说了句 \"帮我做个健身计划\"，它真给我写了一份.md",
+    "99_系统/归档/收件箱/2026/03/跟 AI 说句话，它就帮你画了张图.md",
+    "99_系统/归档/收件箱/2026/03/Vibe Coding 高效使用指南 —— 给 VibeCoding 新手十个实用建议.md",
+    "20_项目/Vibe-Coding-学习",
+    "99_系统/归档/收件箱/2026/03"
+  ]
+}

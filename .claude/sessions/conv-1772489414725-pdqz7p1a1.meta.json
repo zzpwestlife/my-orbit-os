@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772489414725-pdqz7p1a1",
+  "title": "hi",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772489414725,
+  "updatedAt": 1772490346557,
+  "lastResponseAt": 1772490346557,
+  "sessionId": "8dfc7b70-d184-4b62-88dd-6866860c3222",
+  "sdkSessionId": "8dfc7b70-d184-4b62-88dd-6866860c3222",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

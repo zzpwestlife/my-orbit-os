@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772463740299-capgw58jj",
+  "title": "打招呼问候",
+  "titleGenerationStatus": "success",
+  "createdAt": 1772463740299,
+  "updatedAt": 1772466435145,
+  "lastResponseAt": 1772464416775,
+  "sessionId": null,
+  "sdkSessionId": "e30e625c-274c-44c7-a0ff-9bbf8fa4724a",
+  "usage": {
+    "model": "glm-4.7",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

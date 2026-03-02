@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772466406539-bkiupamft",
+  "title": "开始对话",
+  "titleGenerationStatus": "success",
+  "createdAt": 1772466406539,
+  "updatedAt": 1772489417439,
+  "lastResponseAt": 1772468720030,
+  "sessionId": null,
+  "sdkSessionId": "6ebcd410-f0ef-46f8-8432-84220d5a3bcd",
+  "usage": {
+    "model": "glm-5",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

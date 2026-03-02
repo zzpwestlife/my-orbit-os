@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "21dd6fe0c9263c7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbbdc585e4cb97c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58669d98872cad5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_项目/Obsidian剪藏配置指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian剪藏配置指南"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "653bf8679a06067d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "27772989089b0509",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "903a6b2272e8174d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "bc8a98c0a223add1",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "0624084914e63f2e",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "7609cef41a45faf3",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "5bec556b35190ffb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4ea63640b99c91b0",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "00_收件箱/编写优质的 CLAUDE.md 文件.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "22bb01f4db3062ba",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "00_收件箱/编写优质的 CLAUDE.md 文件.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "7a71733f5b5dc029",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "00_收件箱/编写优质的 CLAUDE.md 文件.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "58669d98872cad5a",
+  "lastOpenFiles": [
+    "20_项目/Vibe-Coding-学习/Vibe-Coding-学习.md",
+    "99_系统/归档/收件箱/2026/03/编写优质的 CLAUDE.md 文件.md",
+    "99_系统/归档/收件箱/2026/03/对笔记说了句 \"帮我做个健身计划\"，它真给我写了一份.md",
+    "99_系统/归档/收件箱/2026/03/跟 AI 说句话，它就帮你画了张图.md",
+    "20_项目/Vibe-Coding-学习.md",
+    "10_日记/2026-03-02.md",
+    "00_收件箱/编写优质的 CLAUDE.md 文件.md",
+    "99_系统/归档/收件箱/2026/03/Vibe Coding 高效使用指南 —— 给 VibeCoding 新手十个实用建议.md",
+    "90_计划/归档/Plan_2026-03-02_Kickoff_Vibe-Coding-学习.md",
+    "00_收件箱/跟 AI 说句话，它就帮你画了张图.md",
+    "20_项目/Vibe-Coding-学习",
+    "90_计划/归档/Plan_2026-03-02_Kickoff_Obsidian剪藏配置.md",
+    "Clippings/Clippings/告别复制粘贴：浏览器一键剪藏到 Obsidian.md",
+    "00_收件箱",
+    "Clippings/7天健身计划-减脂新手版.md"
+  ]
+}
