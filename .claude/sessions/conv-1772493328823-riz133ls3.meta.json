@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772493328823-riz133ls3",
+  "title": "https://www",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772493328828,
+  "updatedAt": 1772533349641,
+  "lastResponseAt": 1772533349641,
+  "sessionId": "bd336937-d9ef-4d6d-b3f1-7ac206267dbc",
+  "sdkSessionId": "bd336937-d9ef-4d6d-b3f1-7ac206267dbc",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

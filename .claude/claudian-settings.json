@@ -48,7 +48,7 @@
   "enableBangBash": false,
   "excludedTags": [],
   "mediaFolder": "",
-  "systemPrompt": "- **Skill Reference**: Consult `99_系统/工具/SKILL.md` for canonical skill definitions, tool capabilities, and workflow documentation when executing commands.",
+  "systemPrompt": "",
   "allowedExportPaths": [
     "~/Desktop",
     "~/Downloads"
@@ -65,7 +65,8 @@
   "locale": "zh-CN",
   "claudeCliPath": "",
   "claudeCliPathsByHost": {
-    "MacBookPro": "/opt/homebrew/bin/claude"
+    "MacBookPro": "/opt/homebrew/bin/claude",
+    "MacBook-Pro-10.local": "/Users/admin/.nvm/versions/node/v24.4.0/bin/claude"
   },
   "loadUserClaudeSettings": true,
   "lastClaudeModel": "sonnet",
