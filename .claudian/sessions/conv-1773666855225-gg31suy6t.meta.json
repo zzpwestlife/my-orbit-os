@@ -1,0 +1,19 @@
+{
+  "id": "conv-1773666855225-gg31suy6t",
+  "title": "整理出安装所有软件，使用 Brew 安装所有软件的一条完整命令。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1773666855232,
+  "updatedAt": 1773749809077,
+  "lastResponseAt": 1773704801694,
+  "sessionId": "3c111549-709a-49f6-a37a-137652bd51d8",
+  "sdkSessionId": "3c111549-709a-49f6-a37a-137652bd51d8",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 24,
+    "cacheReadInputTokens": 34460,
+    "contextWindow": 200000,
+    "contextTokens": 34492,
+    "percentage": 17
+  }
+}

@@ -1,112 +1,41 @@
 {
   "main": {
-    "id": "3110798aaeae0676",
+    "id": "f0be3a858c92bfb2",
     "type": "split",
     "children": [
       {
-        "id": "7a305edfa1c795f5",
+        "id": "f141965d6b820a96",
         "type": "tabs",
         "children": [
           {
-            "id": "96f77fb6a2ae6b61",
+            "id": "9b8c0a4581262b5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_项目/Obsidian剪藏配置指南.md",
+                "file": "00_收件箱/分享 10 个你可能不知道的 Claude Code 隐藏命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian剪藏配置指南"
-            }
-          },
-          {
-            "id": "a7315db374d1bdcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_项目/Vibe-Coding-学习/Vibe-Coding-学习.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vibe-Coding-学习"
-            }
-          },
-          {
-            "id": "cf8cbf65b5915880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview-Plan-Execute 工作流模式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Interview-Plan-Execute 工作流模式"
-            }
-          },
-          {
-            "id": "20aab29bc087afef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40_知识库/AI方法论/硅基分化假说.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "硅基分化假说"
-            }
-          },
-          {
-            "id": "08d1c00a07722753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40_知识库/AI工具/龙虾先生英语教练提示词.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "龙虾先生英语教练提示词"
-            }
-          },
-          {
-            "id": "3b349d95997fd46f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_收件箱/star23Day1Global-Skills Day1Global Skills Share 美股和加密分析，生产力 Skills 分享.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "star23Day1Global-Skills Day1Global Skills Share 美股和加密分析，生产力 Skills 分享"
+              "title": "分享 10 个你可能不知道的 Claude Code 隐藏命令"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "48206b3262acf660",
+    "id": "8827cb70606d33b3",
     "type": "split",
     "children": [
       {
-        "id": "fcaaf424caeae128",
+        "id": "bc70929252b6b4ff",
         "type": "tabs",
         "children": [
           {
-            "id": "f212299e8d4aef93",
+            "id": "137f778bc440567c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -115,16 +44,16 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
-            "id": "d30d8a473e075136",
+            "id": "e232aebd25a9b9f7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "阿里",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,41 +61,40 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
-            "id": "0e74fd94614fd0f3",
+            "id": "bdaca7329d36bed3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 230.5
   },
   "right": {
-    "id": "9e07246d4697afc7",
+    "id": "2bad9ca603b7e8f7",
     "type": "split",
     "children": [
       {
-        "id": "a4f6097314a626a1",
+        "id": "c07434177332c3d9",
         "type": "tabs",
         "children": [
           {
-            "id": "dad34e36466475d5",
+            "id": "634f62069ac7861f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "00_收件箱/如何用 VPS 搭建电脑端和移动端的稳定上网环境（文科生小白友好教程）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "如何用 VPS 搭建电脑端和移动端的稳定上网环境（文科生小白友好教程） 的反向链接列表"
             }
           },
           {
-            "id": "284e99de05c61c36",
+            "id": "81e2fc8f2b68ed06",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "00_收件箱/Thread by @FradSer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Thread by @FradSer 的出链列表"
             }
           },
           {
-            "id": "0c4de195180ff93a",
+            "id": "5a0dc87da212702f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -205,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
-            "id": "28d68d0e8024e0cc",
+            "id": "cd215a29b3392a26",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -219,26 +147,38 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "添加笔记属性"
             }
           },
           {
-            "id": "141d655504322aba",
+            "id": "8b82ac652aa1f353",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "99_系统/归档/收件箱/2026/03/对笔记说了句 \"帮我做个健身计划\"，它真给我写了一份.md",
+                "file": "00_收件箱/万字干货：理解 Harness Engineering，看这一篇就够了.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 对笔记说了句 \"帮我做个健身计划\"，它真给我写了一份"
+              "title": "万字干货：理解 Harness Engineering，看这一篇就够了 的大纲"
             }
           },
           {
-            "id": "d7b3ecddc62a3072",
+            "id": "cdea81d833483472",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "00_收件箱/万字干货：理解 Harness Engineering，看这一篇就够了.md"
+              },
+              "icon": "lucide-info",
+              "title": "万字干货：理解 Harness Engineering，看这一篇就够了的笔记属性"
+            }
+          },
+          {
+            "id": "3aeeb2a31137b0bf",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -248,64 +188,73 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 593.5,
-    "collapsed": true
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
       "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "claudian:Open Claudian": false
     }
   },
-  "active": "3b349d95997fd46f",
+  "active": "9b8c0a4581262b5c",
   "lastOpenFiles": [
-    "00_收件箱/The Self-Driving Codebase.md",
-    "00_收件箱/star23Day1Global-Skills Day1Global Skills Share 美股和加密分析，生产力 Skills 分享.md",
-    "00_收件箱/Thread by @lennysan.md",
-    "00_收件箱/工作交给 Tabbit，时间留给自己.md",
-    "99_系统/归档/收件箱/2026/03/对笔记说了句 \"帮我做个健身计划\"，它真给我写了一份.md",
-    "99_系统/归档/收件箱/2026/03/告别复制粘贴：浏览器一键剪藏到 Obsidian.md",
-    "40_知识库/AI工具/龙虾先生英语教练提示词.md",
-    "CLAUDE.md",
-    "40_知识库/AI工具",
-    "99_系统/工具/SKILL.md",
-    "99_系统/工具/test-skill-parsing.yaml",
-    "99_系统/工具/scripts/claudeception-activator.sh",
-    "99_系统/工具/scripts",
-    "99_系统/工具/examples/prisma-connection-pool-exhaustion/SKILL.md",
-    "99_系统/工具/examples/typescript-circular-dependency/SKILL.md",
-    "99_系统/工具/examples/nextjs-server-side-error-debugging/SKILL.md",
-    "99_系统/工具/examples/prisma-connection-pool-exhaustion",
-    "99_系统/工具/examples/typescript-circular-dependency",
-    "99_系统/工具/examples/nextjs-server-side-error-debugging",
-    "99_系统/工具/examples",
-    "99_系统/工具/README.md",
-    "99_系统/工具/resources/research-references.md",
-    "99_系统/工具/resources/skill-template.md",
-    "99_系统/工具/resources",
-    "99_系统/工具/WARP.md",
-    "99_系统/工具/LICENSE",
-    "99_系统/归档/收件箱/2026/03/Vibe Coding 高效使用指南 —— 给 VibeCoding 新手十个实用建议.md",
-    "40_知识库/AI方法论/对话提炼Skill法.md",
-    "40_知识库/AI方法论/Skill-First工作流.md",
-    "40_知识库/AI方法论/后人类代码审查.md",
-    "40_知识库/系统运维/AI自我迭代系统.md",
-    "40_知识库/AI方法论/硅基分化假说.md",
-    "40_知识库/AI方法论/视觉锚点法.md",
-    "40_知识库/AI方法论/顶级模型优先原则.md",
-    "40_知识库/AI方法论/FlowState.md",
-    "Interview-Plan-Execute 工作流模式.md",
-    "50_资源/Screenshot.png"
+    "00_收件箱/万字干货：理解 Harness Engineering，看这一篇就够了.md",
+    "00_收件箱/Anthropic说：网传的Harness思路过时了，做这3件事就够！.md",
+    "00_收件箱/When the Entire Team Goes Zero-Manual Coding A 10,000-Wo....md",
+    "00_收件箱/Deep Dive The Memory Architecture and Philosophy That Th....md",
+    "00_收件箱/财富的 “无趣” 奇迹：QQQ LEAPS 策略 14 年翻 13.8 倍的量化真相.md",
+    "00_收件箱/只要你学得慢，就可以不用学：AI时代过渡技术考古.md",
+    "00_收件箱/分享 10 个你可能不知道的 Claude Code 隐藏命令.md",
+    "00_收件箱/The 'File over App' Philosophy for AI Agent Memory.md",
+    "30_研究/人工智能/AI 时代过渡技术考古.md",
+    "30_研究/AI编程/Claude Code 隐藏命令与技巧速查.md",
+    "40_知识库/AI编程/Spec Coding.md",
+    "30_研究/AI编程/KV 缓存机制与 Claude Code 成本优化.md",
+    "30_研究/AI编程/团队 Zero-Manual Coding 落地实录.md",
+    "30_研究/AI编程/AI Native 研发模式 - 从辅助编码到零人工 Coding.md",
+    "40_知识库/人工智能/Harness Engineering.md",
+    "30_研究/AI编程/Harness Engineering 的演进 - 做减法.md",
+    "30_研究/AI编程/Harness Engineering 完整指南.md",
+    "30_研究/AI编程/Claude Code 缓存机制深度解析.md",
+    "30_研究/AI编程/渐进式 Spec Coding 实践指南.md",
+    "40_知识库/AI编程/Harness Engineering.md",
+    "30_研究/AI编程/Harness Engineering 完全指南.md",
+    "40_知识库/人工智能/Agentic Memory.md",
+    "30_研究/AI编程/File over App - AI Agent 记忆的个人维基实践.md",
+    "30_研究/AI编程/Agent Memory 架构深度解析.md",
+    "40_知识库/工具配置/Claudian插件常见报错与排查.md",
+    ".claude",
+    "00_收件箱/Ai好记 - AI音视频转图文.md",
+    ".claude/stats-cache.json",
+    ".claude/settings.json",
+    ".claude/mcp.json",
+    ".claude/history.jsonl",
+    ".claude/ft-settings.json",
+    ".claude/ft-claude-code.json",
+    ".claude/dev-horcrux.conf",
+    ".claude/venv/pyvenv.cfg",
+    ".claude/venv/lib/python3.9/site-packages",
+    ".claude/plugins/pua/assets/xiao.jpg",
+    ".claude/plugins/pua/assets/wechat-qr.jpg",
+    ".claude/plugins/pua/assets/pua3.jpg",
+    ".claude/plugins/pua/assets/pua2.jpg",
+    ".claude/plugins/pua/assets/pua1.jpg",
+    ".claude/plugins/pua/assets/hero.jpeg",
+    ".claude/plugins/marketplaces/visual-explainer-marketplace/banner.png",
+    ".claude/plugins/marketplaces/understand-anything/homepage/public/favicon.svg",
+    ".claude/plugins/marketplaces/understand-anything/homepage/public/images/overview.png",
+    ".claude/plugins/marketplaces/understand-anything/homepage/public/images/hero.jpg"
   ]
 }

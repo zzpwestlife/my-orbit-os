@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772932012739-8nh7n75sj",
+  "title": "当前文章正文增加一些换行，现在全都在一段里面，感觉很乱。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772932012739,
+  "updatedAt": 1773272876655,
+  "lastResponseAt": 1772932206172,
+  "sessionId": "5877c4c8-8930-4484-8f48-3804d7ef4fd0",
+  "sdkSessionId": "5877c4c8-8930-4484-8f48-3804d7ef4fd0",
+  "currentNote": "00_收件箱/Thread by @KengGuangLong.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 908,
+    "cacheCreationInputTokens": 7987,
+    "cacheReadInputTokens": 21520,
+    "contextWindow": 200000,
+    "contextTokens": 30415,
+    "percentage": 15
+  }
+}

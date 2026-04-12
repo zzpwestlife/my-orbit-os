@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99_系统/提示词/Finance_StockMarket.md",
+                "file": "00_收件箱/安利一个 11 万 Star 的必装插件，能让你的 Agent 体验直接质变。.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finance_StockMarket"
+              "title": "安利一个 11 万 Star 的必装插件，能让你的 Agent 体验直接质变。"
             }
           }
         ]
@@ -171,6 +171,7 @@
   },
   "active": "58669d98872cad5a",
   "lastOpenFiles": [
+    "99_系统/提示词/Finance_StockMarket.md",
     "99_系统/提示词/Finance_Crypto.md",
     "90_计划/归档/Plan_2026-03-02_Kickoff_Obsidian剪藏配置.md",
     "20_项目/Obsidian剪藏配置指南.md",

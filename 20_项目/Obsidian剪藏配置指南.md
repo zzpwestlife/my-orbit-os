@@ -91,6 +91,7 @@ tags: [project, obsidian, 工具配置, 知识管理]
 - 原始教程: `00_收件箱/告别复制粘贴：浏览器一键剪藏到 Obsidian.md`
 - 今日日记: `10_日记/2026-03-02.md`
 - OrbitOS 工作流: `/research`, `/kickoff`, `/archive`
+- X 收藏自动剪藏插件: [[X 收藏自动剪藏到 Obsidian]] / [[X 收藏同步 Obsidian 插件]] — Chrome 插件 [x-bookmark-to-obsidian](https://github.com/zhaoscsc/x-bookmark-to-obsidian)，在 X 上点击收藏即自动写入 Obsidian，与 Web Clipper 互补
 
 ---
 

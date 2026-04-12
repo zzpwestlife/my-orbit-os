@@ -91,6 +91,15 @@ tags: [project, AI编程, Vibe-Coding, 学习, 实践]
 
 ## 进展
 
+### 2026-03-12
+- 完成收件箱整合，创建 [[30_研究/AI编程方法论]] 综合研究笔记
+- 整合了 8 条相关内容的核心洞察
+- 明确了三个关键方向：
+  1. Context Engineering > Prompt Engineering
+  2. 知识管理系统（Obsidian + Claude Code）
+  3. 工具设计原则（MCP）
+- 下一步：开始阶段1理论学习，重点关注上下文工程
+
 ### 2026-03-02
 - 项目启动，完成项目笔记创建
 - 制定三阶段学习计划
@@ -110,10 +119,11 @@ tags: [project, AI编程, Vibe-Coding, 学习, 实践]
 
 ## 相关
 
+- 综合研究: [[30_研究/AI编程方法论]]
 - 收件箱来源: `00_收件箱/Vibe Coding 高效使用指南 —— 给 VibeCoding 新手十个实用建议.md`
 - 原文链接: https://x.com/coder_left/status/2026194465338376229
 - 领域: [[编程/AI编程]]
-- 参考项目: `20_项目/Obsidian剪藏配置指南`
+- 参考项目: [[Obsidian剪藏配置指南]]
 
 ---
 

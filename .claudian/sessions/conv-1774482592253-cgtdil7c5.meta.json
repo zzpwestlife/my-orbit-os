@@ -1,0 +1,19 @@
+{
+  "id": "conv-1774482592253-cgtdil7c5",
+  "title": "hi",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774482592262,
+  "updatedAt": 1774482605246,
+  "lastResponseAt": 1774482605246,
+  "sessionId": "257cfa77-c917-4383-a9f5-77c039a9832f",
+  "sdkSessionId": "257cfa77-c917-4383-a9f5-77c039a9832f",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 22060,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22060,
+    "percentage": 11
+  }
+}

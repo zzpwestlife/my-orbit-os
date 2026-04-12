@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772581287818-nuflrex54",
+  "title": "整理这篇文章, 输出要点",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772581287820,
+  "updatedAt": 1774070018114,
+  "lastResponseAt": 1772796064669,
+  "sessionId": "421efac5-df63-425a-aaa4-1cda3f06dfbd",
+  "sdkSessionId": "421efac5-df63-425a-aaa4-1cda3f06dfbd",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 826,
+    "cacheCreationInputTokens": 37340,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 38166,
+    "percentage": 19
+  }
+}

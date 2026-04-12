@@ -1,0 +1,19 @@
+{
+  "id": "conv-1773272885199-e4bzzc3xx",
+  "title": "/start-my-day",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1773272885200,
+  "updatedAt": 1773666838838,
+  "lastResponseAt": 1773324782611,
+  "sessionId": "cea8f679-9ad4-4e4e-aac5-99aa2f1e6f08",
+  "sdkSessionId": "cea8f679-9ad4-4e4e-aac5-99aa2f1e6f08",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 793,
+    "cacheCreationInputTokens": 26001,
+    "cacheReadInputTokens": 22432,
+    "contextWindow": 200000,
+    "contextTokens": 49226,
+    "percentage": 25
+  }
+}
