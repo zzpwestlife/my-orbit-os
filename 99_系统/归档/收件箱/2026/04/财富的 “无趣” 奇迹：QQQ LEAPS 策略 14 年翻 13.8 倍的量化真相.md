@@ -1,6 +1,6 @@
 ---
 type: "inbox"
-status: "pending"
+status: "processed"
 source: "web-clipper"
 url: "https://gemini.google.com/gem/ea5e8b8c8ac0/2ffb96ae8a1febf1"
 created: 2026-04-09
