@@ -1,0 +1,19 @@
+{
+  "mountPoints": [],
+  "allowlist": [],
+  "managedTocSource": "",
+  "tocSources": [],
+  "dryRun": false,
+  "showStatusBar": true,
+  "mountRootDeletionBehavior": "ask",
+  "deviceId": "f6baqytmnwhgwep",
+  "allowForeignMounts": false,
+  "maxDataUriMB": 10,
+  "globalIgnorePatterns": [
+    ".DS_Store",
+    "Thumbs.db",
+    "desktop.ini",
+    ".git"
+  ],
+  "hasSeenOnboarding": true
+}

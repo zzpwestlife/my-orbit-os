@@ -8,7 +8,7 @@
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "excludedTags": [],
-  "mediaFolder": "Attachments",
+  "mediaFolder": "",
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
@@ -47,7 +47,7 @@
       "environmentHash": "",
       "installationMethodsByHost": {
         "MacBook-Pro-44.local": "native-windows",
-        "MacBookPro": "native-windows"
+        "Mac": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     }

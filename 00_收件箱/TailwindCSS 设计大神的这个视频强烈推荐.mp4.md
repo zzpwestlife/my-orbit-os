@@ -1,8 +1,4 @@
 
-## 视频来源
-
-user_2nMOjltugKNw1QtG7a8C0ypW0Cr/video/2026-3-25/d0c160ad-f422-4780-9354-e09aa14f4324/TailwindCSS%20%E8%AE%BE%E8%AE%A1%E5%A4%A7%E7%A5%9E%E7%9A%84%E8%BF%99%E4%B8%AA%E8%A7%86%E9%A2%91%E5%BC%BA%E7%83%88%E6%8E%A8%E8%8D%90.mp4
-
 ## 大纲
 
 - 使用C代码设计金融应用营销页面(00:00:00)

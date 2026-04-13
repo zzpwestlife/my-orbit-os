@@ -45,10 +45,28 @@ var __privateSet = (obj, member, value, setter) => (__accessCheck(obj, member, "
 function getVaultPath(app) {
   const adapter = app.vault.adapter;
   if (typeof adapter.getBasePath === "function") {
-    return adapter.getBasePath();
+    const basePath = adapter.getBasePath();
+    if (typeof basePath === "string" && basePath.length > 0) {
+      return basePath;
+    }
   }
   if ("basePath" in adapter) {
-    return adapter.basePath;
+    const legacyBasePath = adapter.basePath;
+    if (typeof legacyBasePath === "string" && legacyBasePath.length > 0) {
+      return legacyBasePath;
+    }
+  }
+  if (typeof adapter.getFullPath === "function") {
+    const rootPath = adapter.getFullPath("");
+    if (typeof rootPath === "string" && rootPath.length > 0) {
+      return rootPath;
+    }
+    const configDirPath = adapter.getFullPath(app.vault.configDir);
+    if (typeof configDirPath === "string" && configDirPath.length > 0) {
+      const normalized = configDirPath.replace(/[\\/]+$/, "");
+      const slashIndex = Math.max(normalized.lastIndexOf("/"), normalized.lastIndexOf("\\"));
+      return slashIndex > 0 ? normalized.slice(0, slashIndex) : normalized;
+    }
   }
   return null;
 }
@@ -39413,15 +39431,13 @@ var claudeSettingsTabRenderer = {
 
 // src/providers/claude/app/ClaudeWorkspaceServices.ts
 async function createClaudeWorkspaceServices(plugin, adapter) {
-  var _a3;
   const claudeStorage = new StorageService(plugin, adapter);
   await claudeStorage.ensureDirectories();
   const cliResolver = new ClaudeCliResolver();
   const mcpStorage = claudeStorage.mcp;
   const mcpManager = new McpServerManager(mcpStorage);
   await mcpManager.loadServers();
-  const adapter2 = plugin.app.vault.adapter;
-  const vaultPath = (_a3 = typeof adapter2.getBasePath === "function" ? adapter2.getBasePath() : adapter2.basePath) != null ? _a3 : "";
+  const vaultPath = getVaultPath(plugin.app) || "";
   const pluginManager = new PluginManager(vaultPath, claudeStorage.ccSettings);
   await pluginManager.loadPlugins();
   const agentStorage = claudeStorage.agents;
