@@ -1,3 +1,7 @@
+---
+type: "inbox"
+status: "processed"
+---
 
 
 ## 大纲

@@ -1,6 +1,6 @@
 ---
 type: "inbox"
-status: "pending"
+status: "processed"
 source: "web-clipper"
 url: "https://time.geekbang.org/column/article/940979"
 created: 2026-04-18

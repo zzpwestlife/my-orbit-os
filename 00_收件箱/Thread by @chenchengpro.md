@@ -1,6 +1,6 @@
 ---
 type: "inbox"
-status: "pending"
+status: "processed"
 source: "web-clipper"
 url: "https://x.com/chenchengpro/status/2044063181610594722"
 created: 2026-04-16

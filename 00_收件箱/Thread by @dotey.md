@@ -1,6 +1,6 @@
 ---
 type: "inbox"
-status: "pending"
+status: "processed"
 source: "web-clipper"
 url: "https://x.com/dotey/status/2044285265586340066"
 created: 2026-04-16

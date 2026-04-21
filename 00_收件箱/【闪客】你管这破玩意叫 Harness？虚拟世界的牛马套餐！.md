@@ -1,6 +1,6 @@
 ---
 type: "inbox"
-status: "pending"
+status: "processed"
 source: "web-clipper"
 url: "https://www.youtube.com/watch?v=z5EmU_KN9aQ"
 created: 2026-04-20

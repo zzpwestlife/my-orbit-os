@@ -1,6 +1,6 @@
 ---
 type: "inbox"
-status: "pending"
+status: "processed"
 source: "web-clipper"
 url: "https://mp.weixin.qq.com/s/GBW6D4mmLwRVmw6qYTx_yg"
 created: 2026-04-21

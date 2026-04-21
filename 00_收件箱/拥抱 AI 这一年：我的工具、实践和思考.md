@@ -1,6 +1,6 @@
 ---
 type: "inbox"
-status: "pending"
+status: "processed"
 source: "web-clipper"
 url: "https://www.bestblogs.dev/article/83fa2a78?entry=resource_card&from=%2Fen%2Fexplore%3Ftime%3D1w%26qualified%3Dtrue%26type%3Darticle"
 created: 2026-04-14
