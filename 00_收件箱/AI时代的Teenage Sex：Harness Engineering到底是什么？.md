@@ -7,10 +7,6 @@ created: 2026-04-21
 ---
 ## AI 时代的 Teenage Sex：Harness Engineering 到底是什么？
 
-linview *2026 年 4 月 21 日 08:46*
-
-![Image](https://mmbiz.qpic.cn/sz_mmbiz_png/8Iiaib3QQiaVVftlvDOQMYhT7vK0leBtKEah17sTxqlzIA5QDvEia5hVtNrmpJ71pp6afOcLYhH2DSrRiaGOWJ2Mee8ORaXK0Ie6FZjPSial3xGCI/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
-
 2013 年 1 月，杜克大学教授 Dan Ariely 在推特上写了一段话：
 
 Big data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it.
@@ -183,10 +179,3 @@ Harness Engineering 大概率也是这个结局。
 - Milvus: Harness Engineering: The Execution Layer AI Agents Actually Need
 - Medium: Harness Engineering - The Oldest New Idea in AI
 
-**微信扫一扫赞赏作者**
-
-继续滑动看下一个
-
-琳时闲话
-
-向上滑动看下一个
