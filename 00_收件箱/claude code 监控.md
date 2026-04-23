@@ -5,7 +5,7 @@ source: "web-clipper"
 url: "https://code.claude.com/docs/zh-CN/monitoring-usage"
 created: 2026-04-23
 ---
-通过 OpenTelemetry (OTel) 导出遥测数据，跨组织跟踪 Claude Code 使用情况、成本和工具活动。Claude Code 通过标准指标协议导出指标作为时间序列数据，通过日志 / 事件协议导出事件，以及可选地通过 [traces 协议](#traces-beta) 导出分布式跟踪。配置您的指标、日志和跟踪后端以满足您的监控要求。
+通过 OpenTelemetry (OTel) 导出遥测数据，跨组织跟踪 Claude Code 使用情况、成本和工具活动。Claude Code 通过标准指标协议导出指标作为时间序列数据，通过日志 / 事件协议导出事件，以及可选地通过 [traces 协议](claude%20code%20监控.md#traces-beta) 导出分布式跟踪。配置您的指标、日志和跟踪后端以满足您的监控要求。
 
 ## 快速开始
 
@@ -81,7 +81,7 @@ claude
 | `OTEL_LOGS_EXPORT_INTERVAL` | 日志导出间隔（毫秒）（默认：5000） | `1000` 、 `10000` |
 | `OTEL_LOG_USER_PROMPTS` | 启用用户提示内容的日志记录（默认：禁用） | `1` 启用 |
 | `OTEL_LOG_TOOL_DETAILS` | 启用在工具事件和 trace span 属性中记录工具参数和输入参数：Bash 命令、MCP 服务器和工具名称、技能名称和工具输入。还在 `user_prompt` 事件上启用自定义、插件和 MCP 命令名称（默认：禁用） | `1` 启用 |
-| `OTEL_LOG_TOOL_CONTENT` | 启用在 span 事件中记录工具输入和输出内容（默认：禁用）。需要 [tracing](#traces-beta) 。内容在 60 KB 处截断 | `1` 启用 |
+| `OTEL_LOG_TOOL_CONTENT` | 启用在 span 事件中记录工具输入和输出内容（默认：禁用）。需要 [tracing](claude%20code%20监控.md#traces-beta) 。内容在 60 KB 处截断 | `1` 启用 |
 | `OTEL_LOG_RAW_API_BODIES` | 将完整的 Anthropic Messages API 请求和响应 JSON 作为 `api_request_body` / `api_response_body` 日志事件发出（默认：禁用）。主体包括整个对话历史。启用此选项意味着同意 `OTEL_LOG_USER_PROMPTS` 、 `OTEL_LOG_TOOL_DETAILS` 和 `OTEL_LOG_TOOL_CONTENT` 会揭示的所有内容 | `1` 用于在 60 KB 处截断的内联主体，或 `file:<dir>` 用于磁盘上的未截断主体，事件中带有 `body_ref` 指针 |
 | `OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE` | 指标时间性偏好（默认： `delta` ）。如果您的后端期望累积时间性，请设置为 `cumulative` | `delta` 、 `cumulative` |
 | `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS` | 刷新动态标头的间隔（默认：1740000ms / 29 分钟） | `900000` |
@@ -102,7 +102,7 @@ claude
 
 分布式跟踪导出 span，将每个用户提示链接到它触发的 API 请求和工具执行，因此您可以在跟踪后端中将完整请求视为单个 trace。
 
-跟踪默认关闭。要启用它，请同时设置 `CLAUDE_CODE_ENABLE_TELEMETRY=1` 和 `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA=1` ，然后设置 `OTEL_TRACES_EXPORTER` 以选择 span 的发送位置。Traces 重用 [常见 OTLP 配置](#common-configuration-variables) 用于端点、协议和标头。
+跟踪默认关闭。要启用它，请同时设置 `CLAUDE_CODE_ENABLE_TELEMETRY=1` 和 `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA=1` ，然后设置 `OTEL_TRACES_EXPORTER` 以选择 span 的发送位置。Traces 重用 [常见 OTLP 配置](claude%20code%20监控.md#common-configuration-variables) 用于端点、协议和标头。
 
 | 环境变量 | 描述 | 示例值 |
 | --- | --- | --- |
@@ -136,7 +136,7 @@ claude_code.interaction
 
 #### Span 属性
 
-每个 span 都携带 [标准属性](#standard-attributes) 加上与其名称匹配的 `span.type` 属性。下表列出了在每个 span 上设置的其他属性。 `llm_request` 、 `tool.execution` 和 `hook` span 在记录失败时设置 OpenTelemetry 状态 `ERROR` ；其他 span 始终以状态 `UNSET` 结束。
+每个 span 都携带 [标准属性](claude%20code%20监控.md#standard-attributes) 加上与其名称匹配的 `span.type` 属性。下表列出了在每个 span 上设置的其他属性。 `llm_request` 、 `tool.execution` 和 `hook` span 在记录失败时设置 OpenTelemetry 状态 `ERROR` ；其他 span 始终以状态 `UNSET` 结束。
 
 **`claude_code.interaction`**
 
@@ -357,7 +357,7 @@ export OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4317
 
 事件另外包含以下属性。这些永远不会附加到指标，因为它们会导致无限基数：
 
-- `prompt.id` ：UUID 将用户提示与所有后续事件关联到下一个提示。请参阅 [事件关联属性](#event-correlation-attributes) 。
+- `prompt.id` ：UUID 将用户提示与所有后续事件关联到下一个提示。请参阅 [事件关联属性](claude%20code%20监控.md#event-correlation-attributes) 。
 - `workspace.host_paths` ：在桌面应用中选择的主机工作区目录，作为字符串数组
 
 ### 指标
@@ -385,7 +385,7 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `start_type` ：会话的启动方式。 `"fresh"` 、 `"resume"` 或 `"continue"` 之一
 
 #### 代码行计数器
@@ -394,7 +394,7 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `type` ：（ `"added"` 、 `"removed"` ）
 
 #### 拉取请求计数器
@@ -403,7 +403,7 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 
 #### 提交计数器
 
@@ -411,7 +411,7 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 
 #### 成本计数器
 
@@ -419,7 +419,7 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `model` ：模型标识符（例如，“claude-sonnet-4-6”）
 - `query_source` ：发出请求的子系统的类别。 `"main"` 、 `"subagent"` 或 `"auxiliary"` 之一
 - `speed` ：当请求使用快速模式时为 `"fast"` 。否则不存在
@@ -431,12 +431,12 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `type` ：（ `"input"` 、 `"output"` 、 `"cacheRead"` 、 `"cacheCreation"` ）
 - `model` ：模型标识符（例如，“claude-sonnet-4-6”）
 - `query_source` ：发出请求的子系统的类别。 `"main"` 、 `"subagent"` 或 `"auxiliary"` 之一
 - `speed` ：当请求使用快速模式时为 `"fast"` 。否则不存在
-- `effort` ：应用于请求的 [努力级别](https://code.claude.com/docs/zh-CN/model-config#adjust-effort-level) 。有关详情，请参阅 [成本计数器](#cost-counter) 。
+- `effort` ：应用于请求的 [努力级别](https://code.claude.com/docs/zh-CN/model-config#adjust-effort-level) 。有关详情，请参阅 [成本计数器](claude%20code%20监控.md#cost-counter) 。
 
 #### 代码编辑工具决策计数器
 
@@ -444,7 +444,7 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `tool_name` ：工具名称（ `"Edit"` 、 `"Write"` 、 `"NotebookEdit"` ）
 - `decision` ：用户决策（ `"accept"` 、 `"reject"` ）
 - `source` ：决策来源 - `"config"` 、 `"hook"` 、 `"user_permanent"` 、 `"user_temporary"` 、 `"user_abort"` 或 `"user_reject"`
@@ -456,7 +456,7 @@ Claude Code 导出以下指标：
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `type` ： `"user"` 用于键盘交互， `"cli"` 用于工具执行和 AI 响应
 
 ### 事件
@@ -483,7 +483,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"user_prompt"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -500,7 +500,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"tool_result"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -528,7 +528,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"api_request"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -552,7 +552,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"api_error"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -574,7 +574,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"api_request_body"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -593,7 +593,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"api_response_body"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -613,7 +613,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"tool_decision"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -629,7 +629,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"permission_mode_changed"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -645,7 +645,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"auth"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -663,7 +663,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"mcp_server_connection"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -683,7 +683,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"internal_error"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -698,7 +698,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"plugin_installed"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -716,7 +716,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"skill_activated"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -733,7 +733,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"api_retries_exhausted"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -752,7 +752,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"hook_execution_start"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -771,7 +771,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"hook_execution_complete"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
@@ -795,7 +795,7 @@ Claude Code 通过 OpenTelemetry 日志 / 事件导出以下事件（当配置�
 
 **属性** ：
 
-- 所有 [标准属性](#standard-attributes)
+- 所有 [标准属性](claude%20code%20监控.md#standard-attributes)
 - `event.name` ： `"compaction"`
 - `event.timestamp` ：ISO 8601 时间戳
 - `event.sequence` ：单调递增的计数器，用于在会话内排序事件
